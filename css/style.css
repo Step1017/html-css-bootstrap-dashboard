@@ -2,11 +2,17 @@
     --my-dark-bg: #0d2337;
     --my-gold: #fe8d00;
     --my-lightgray: #e9e5e5;
+    --my-mediumgray: #979797;
     --my-darkgray: #575757;
     --my-light:#f1f1f1;
 }
 
 /* REGOLE GENERALI */
+
+body {
+    min-width: 360px;
+}
+
 img {
     width: 100%;
 }
@@ -47,6 +53,16 @@ main {
 /* ASIDE */
 aside {
     background-color: var(--my-dark-bg);
+    background-image: url('../img/sidebar-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+aside li:hover {
+    background-color: var(--my-mediumgray);
+    background-size: cover;
+    border-radius: 10px;
 }
 
 aside .row {
@@ -65,6 +81,16 @@ aside .row {
     font-size: 0.9rem;
 }
 
+#main-section header .offcanvas {
+    width: 100%;
+}
+
+@media screen and (min-width:992px) {
+    #main-section header .offcanvas {
+        width: 40%;
+    }
+}
+
 /* MAIN CONTENT */
 
 #main-section #main-content table span.rounded-pill {
@@ -73,7 +99,7 @@ aside .row {
 
 #main-section #main-content table td:not(:first-child),
 #main-section #main-content table th:not(:first-child)
- {
+{
     text-align: center;
 }
 

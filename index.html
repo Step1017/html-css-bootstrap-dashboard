@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-         <header id="primary-header">
+        <header id="primary-header">
             <div class="container-fluid py-3">
                 <div class="row">
                     <div class="col-auto">
@@ -27,7 +27,7 @@
                                 </label>
                                 <input class="py-2 flex-grow-1" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
                             </div>
-                          </form>
+                        </form>
                     </div>
                     <div class="col-auto">
                         <nav class="navbar navbar-expand-lg py-0">
@@ -66,25 +66,25 @@
         <main>
             <div class="container-fluid h-100">
                 <div class="row h-100">
-                    <aside class="col-auto d-flex flex-column justify-content-between h-100 px-4 text-white">
-                        <div class="mt-4">
+                    <aside class="col-auto d-flex flex-column justify-content-between h-100 px-3 text-white">
+                        <div class="mt-3">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
+                                <li class="nav-item px-2">
                                     <a class="nav-link" href="#">
-                                        <i class="fa-solid fa-house pe-md-2"></i>
-                                        <span class="d-none d-md-inline">Home</span>
+                                        <i class="fa-solid fa-house pe-lg-2"></i>
+                                        <span class="d-none d-lg-inline">Home</span>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-2">
                                     <a class="nav-link" href="#">
-                                        <i class="fa-solid fa-chart-simple pe-md-2"></i>
-                                        <span class="d-none d-md-inline">Stats</span>
+                                        <i class="fa-solid fa-chart-simple pe-lg-2"></i>
+                                        <span class="d-none d-lg-inline">Stats</span>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item px-2">
                                     <a class="nav-link" href="#">
-                                        <i class="fa-solid fa-signal pe-md-2"></i>
-                                        <span class="d-none d-md-inline">Signals</span>
+                                        <i class="fa-solid fa-signal pe-lg-2"></i>
+                                        <span class="d-none d-lg-inline">Signals</span>
                                     </a>
                                 </li>
                             </ul>
@@ -92,10 +92,10 @@
                         
                         <div class="mb-4">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
+                                <li class="nav-item px-2">
                                     <a class="nav-link" href="#">
-                                        <i class="fa-solid fa-gear pe-md-2"></i>
-                                        <span class="d-none d-md-inline">Admin</span>
+                                        <i class="fa-solid fa-gear pe-lg-2"></i>
+                                        <span class="d-none d-lg-inline">Admin</span>
                                     </a>
                                 </li>
                             </ul>
@@ -104,52 +104,127 @@
 
                     <section id="main-section" class="col h-100">
                         <header class="row py-3 text-white bg-primary">
-                            <div class="col-12 col-sm-4 col-lg-6">
+                            <div class="col-12 mb-4 col-md-4 mb-md-0 col-lg-6">
                                 <h2 class="fw-normal">
                                     Boolean
                                     <span class="badge rounded-pill">Piano blaze</span>
                                 </h2>
-                                <nav class="navbar navbar-expand-lg pb-0">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">
-                                                <span class="badge rounded-pill">3 app</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-
+                                <nav>
+                                    <a href="#">
+                                        <span class="badge rounded-pill">
+                                            3 app
+                                        </span>
+                                    </a>
                                     <i class="fa-solid fa-angles-right"></i>
-
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav">
-                                            <li class="nav-item">
-                                                <a class="nav-link pe-0" href="#">
-                                                    <span class="badge rounded-pill">Boolean mobile app</span>
+                                    <span class="d-none d-lg-inline-block mt-2">
+                                        <ul class="ps-0 mb-0">
+                                            <li class="d-inline-block">
+                                                <a class="pe-0" href="#">
+                                                    <span class="badge rounded-pill">
+                                                        Boolean mobile app
+                                                    </span>
                                                 </a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link pe-0" href="#">
-                                                    <span class="badge rounded-pill">Boolean web app</span>
+                                            <li class="d-inline-block">
+                                                <a class="pe-0" href="#">
+                                                    <span class="badge rounded-pill">
+                                                        Boolean web app
+                                                    </span>
                                                 </a>
                                             </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link pe-0" href="#">
-                                                    <span class="badge rounded-pill">Boolean blog app</span>
+                                            <li class="d-inline-block">
+                                                <a class="pe-0" href="#">
+                                                    <span class="badge rounded-pill">
+                                                        Boolean blog app
+                                                    </span>
                                                 </a>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </span>
+                                    <span class="d-inline-block d-lg-none mt-2">
+                                        <a href="#">
+                                            <span class="badge rounded-pill">+</span>
+                                        </a>
+                                    </span>
                                 </nav>
                             </div>
-
                             <div class="col-12 col-sm-4 col-lg-4">
-                                <p>Studenti online negli ultimi 30minuti</p>
+                                <p>Studenti online negli ultimi 30 minuti</p>
                                 <h2 class="fw-normal">125</h2>
                             </div>
-
                             <div class="col-12 order-first col-sm-4 order-sm-last col-lg-2">
                                 <span class="me-3">Nuovo studente</span>
-                                <a href="#" class="btn btn-outline-light">+</a>
+                                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasStudent" aria-controls="offcanvasStudent">+</butt>
+                            </div>
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" data-bs-backdrop="static" id="offcanvasStudent" aria-labelledby="offcanvasStudentLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasStudentLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div>
+                                        <form action="" method="GET">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <label for="student-name" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="student-name" name="student_name" required>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <label for="student-surname" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="student-surname" name="student_surname" required>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <label for="student-email" class="form-label">Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" id="student-email" name="student_email" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <label for="student-password" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="student-password" name="student_password" required>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <label for="student-address" class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="student-address" name="student_address">
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <label for="student-city" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="student-city" name="student_city">
+                                                </div>
+                                                <div class="col-12 col-md-3 mb-3">
+                                                    <label for="student-state" class="form-label">Stato</label>
+                                                    <select class="form-select" id="student-state" name="student_state">
+                                                        <option selected disabled>Scegli...</option>
+                                                        <option value="italy">Italia</option>
+                                                        <option value="uk">Inghilterra</option>
+                                                        <option value="france">Francia</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12 col-md-3 mb-3">
+                                                    <label for="student-postal-code" class="form-label">CAP</label>
+                                                    <input type="text" class="form-control" id="student-postal-code" name="student_postal-code">
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <label for="student-photo" class="form-label">Foto</label>
+                                                    <input class="form-control" type="file" id="student-photo" name="student_photo">
+                                                </div>
+                                                <div class="col-12 mb-3 mt-2">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="checked" id="mandatory-check" name="mandatory-check" required>
+                                                        <label class="form-check-label" for="mandatory-check">
+                                                            Seleziona per proseguire
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <button type="submit" class="btn btn btn-primary">Salva</button>
+                                                    <button type="reset" value="Reset" class="btn btn-warning text-dark">Svuota</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </header>
 
@@ -165,8 +240,8 @@
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">Nome</th>
-                                                        <th scope="col">Data Inizio</th>
-                                                        <th scope="col">ROI</th>
+                                                        <th scope="col" class="d-none d-md-table-cell">Data Inizio</th>
+                                                        <th scope="col" class="d-none d-sm-table-cell">ROI</th>
                                                         <th scope="col">Stato</th>
                                                         <th scope="col">Azioni</th>
                                                     </tr>
@@ -177,15 +252,19 @@
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 75
+                                                            <span class="small">
+                                                                Classe 84
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            15 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                04 Nov 2022                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-success">
@@ -202,19 +281,23 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                            
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 76
+                                                            <span class="small">
+                                                                Classe 85
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            16 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                16 Nov 2022                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-success">
@@ -231,22 +314,26 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                       
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 77
+                                                            <span class="small">
+                                                                Classe 86
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            17 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                05 Dic 2022                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
-                                                            <span class="badge text-white bg-warning">
+                                                            <span class="badge text-bg-warning text-white">
                                                                 Process
                                                             </span>
                                                         </td>
@@ -260,19 +347,23 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                       
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 78
+                                                            <span class="small">
+                                                                Classe 87
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            18 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                07 Gen 2023                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-success">
@@ -289,19 +380,23 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                       
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 79
+                                                            <span class="small">
+                                                                Classe 88
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            19 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                19 Feb 2023                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-danger">
@@ -318,19 +413,23 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                       
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 80
+                                                            <span class="small">
+                                                                Classe 89
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            20 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                10 Mar 2023                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-success">
@@ -347,19 +446,23 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                       
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 81
+                                                            <span class="small">
+                                                                Classe 90
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            21 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                20 Mar 2023                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-danger">
@@ -376,19 +479,23 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>                                                       
+                                                        <td>
                                                             <span>
                                                                 <img class="avatar-img" src="img/class-avatar.jpg" >
                                                             </span>
-                                                            <span class="small ms-2">
-                                                                Classe 82
+                                                            <span class="small">
+                                                                Classe 91
                                                             </span>
                                                         </td>
-                                                        <td class="small">                                                        
-                                                            22 Feb 2021                                                         
+                                                        <td class="d-none d-md-table-cell"> 
+                                                            <span class="small">
+                                                                28 Mar 2023                                                         
+                                                            </span>                                                       
                                                         </td>
-                                                        <td class="small">      
-                                                            20%                                                         
+                                                        <td class="d-none d-sm-table-cell"> 
+                                                            <span class="small">
+                                                                20%                                                         
+                                                            </span>                                                       
                                                         </td>
                                                         <td>
                                                             <span class="badge text-bg-success">
@@ -403,7 +510,8 @@
                                                                 <i class="fa-solid fa-trash"></i>
                                                             </button>
                                                         </td>
-                                                    </tr>                                            
+                                                    </tr>
+                                                    
                                                 </tbody>
                                             </table>
                                         </div>
@@ -467,7 +575,7 @@
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                         <label class="form-check-label" for="flexCheckDefault">
-                                                            Lezione su Bootstrap 5 in class #75
+                                                            Lezione su Bootstrap 5 in class #84
                                                         </label>
                                                     </div>
                                                 </li>
